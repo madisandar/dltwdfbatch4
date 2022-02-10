@@ -1,0 +1,30 @@
+.firstdiv{
+	width: 300px;
+	height: 300px;
+	font-size: 20px;
+	color: white;
+	background-color: rgba(268,009,009,1);
+	opacity: 0.3;
+	
+}
+.seconddiv{
+	background: linear-gradient(red,green,blue);
+	width: 300px;
+	height: 200px;
+}
+.thirddiv{
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(40deg,rgba(268,009,009,1) 40%,rgba(668,554,009,1) 50%);
+     opacity: 1;
+
+}
+.fourdiv{
+	width: 300px;
+	height: 300px;
+	background-image: radial-gradient(rgba(554,992,336,0.3) 30% ,rgba(268,009,009,0.30) 50%),
+	                  url(../img/cat.jpg);
+	                  
+	                  background-position: center;
+	
+}

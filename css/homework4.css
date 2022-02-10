@@ -1,0 +1,56 @@
+@font-face{
+	 font-family: 'roboto mano';
+	 src: local('roboto mano'),  url(...libs/font/other/roboto mano.ttf);
+}
+
+
+body{
+	background-image: url(../img/background.jpg);
+     background-repeat: no-repeat;
+   font-family: 'roboto mano';
+}
+	
+div{
+	width:  300px;
+	height:  270px;
+	border:  1px dotted  #fff;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+fieldset{
+	text-align:  right;
+	color:  yellow;
+    height:  400px;
+}
+a{
+	color:  yellow;
+
+}
+h1{
+	text-align: center;
+	color: white;
+}
+table{
+	color: white;
+
+}
+p{
+	color: white;
+	text-align: justify;
+
+	font-family: 'abc';
+}
+
+label{
+	color: white;
+	text-align: justify;
+	
+}
+form{
+	text-align: justify;
+}
+input{
+	text-align: justify;
+}

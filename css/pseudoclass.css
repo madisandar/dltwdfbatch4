@@ -1,0 +1,32 @@
+:root{
+  --rn:  red;
+  --pe:  purple;
+  --gn:  green;
+}
+li{
+    border: 1px solid blue;
+    list-style-type: decimal-leading-zero;
+
+    list-style-position: inside;
+}
+.divone:first-of-type{
+    background-color:  var(--rn);
+    width:  300px;
+    height:  200px;
+}
+.divone:last-of-type{
+    background-color:  var(--pe);
+    width:  300px;
+    height:  200px;
+}
+.divone:nth-child(3){
+    background-color:  var(--gn);
+    width:  300px;
+    height:  200px;
+
+}
+.divone:nth-child(4){
+    background-color:  var(--rn);
+    width:  300px;
+    height:  200px;
+}

@@ -1,0 +1,45 @@
+body{
+	height:  100vh;
+
+
+	display:  flex;
+	justify-content:  center;
+	align-items:  center;
+
+	margin:  0;
+	overflow:  hidden;
+}
+
+.container{
+	width:  400px;
+	height:  500px;
+
+	display:  flex;
+	justify-content:  center;
+	align-items:  center;
+}
+
+input[type="button"]
+{
+ background-color:  green;
+ color:  #fff;
+border-radius:  5px;
+width: 100%;
+font-size:  25px;
+}
+input[type="text"]
+{
+width:  98%;
+height:  50px;
+font-size:  30px;
+background-color:  #fff;
+color:  #000;
+}
+input[type="text"]:focus{
+	outline:  0;
+	color:  #000;
+}
+input[type="button"].add,input[type="button"].sub,input[type="button"].multi,input[type="button"].dev,input[type="button"].mol,input[type="button"].equal,input[type="button"].del{
+	background-color:  red;
+	border-radius:  10px;
+}

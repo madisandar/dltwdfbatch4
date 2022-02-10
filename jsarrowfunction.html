@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arrow Function</title>
+	</head>
+	<body>
+		<script type="text/javascript" >
+			//Regular function
+			let regfun1=function(num1){
+				num1=500;
+				return num1;
+			}
+			console.log(regfun1());
+
+			//Arrow function
+			//1.single parameter function
+
+			//1.Method 1
+			let arrfun1=(num1)=>{
+				return num1;
+			}
+			console.log("This is arrfun1 "+arrfun1(200));
+
+			//Method 2
+			let arrfun2=num1=>{
+				return num1;
+			}
+			console.log("This is arrfun2 "+arrfun2(300));
+
+		
+
+			//Method 3
+			let arrfun3=num1=>num1+500;
+			console.log("This is arrfun3= "+arrfun3(400));
+
+		let num2=new Function("a","b","c","return a+b+c");
+    console.log(num2(100,200,300));
+    //Arrow function(multi parameter)
+    let multiarrfun1 = (num1,num2) =>{
+    	const result=num1+num2;
+    	return result;
+    }
+    console.log("This is multiarrfun1 "+multiarrfun1(10,20));
+			
+		
+    /* let multiarrfun2=(num3,num4)=>{
+     	const result=num3+num4;
+     	return result;
+     }
+     console.log("Thsi is multiarrfun2 "+multiarrfun2(40,50)); */
+     //Without parameter
+     let wpfun1=()=>{
+     	return "I love Mandalay";
+     }
+     console.log(wpfun1());
+     //Method 2
+     let wpfun2=()=>"I am from Mandalay";
+     console.log("This is wpfun2= "+wpfun2());
+    
+    </script>
+	</body>
+</html>

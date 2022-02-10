@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+:root{
+	--wcc: #f4f4f4;
+	--gyc:  #777;
+	--dbc:  #2541a8;
+}
+*{
+	box-sizing:  border-box;
+}
+body{
+	font-family: 'Viaoda Libre';
+	
+	height:  100vh;
+	display:  flex;
+	justify-content: center;
+	align-items:  center;
+}
+.container{
+	width:  400px;
+	background-color:  var(--wcc);
+	
+	border-radius:  2px;
+	box-shadow:  6px 5px 4px var(--gyc);
+	overflow:  hidden;
+}
+h2{
+	text-align:  center;
+	font-family: 'Viaoda Libre';
+}
+.form{
+	padding:  30px;
+}
+.form .form-control{
+	margin-bottom:  20px;
+	padding-bottom:  10px;
+}
+.form .form-control .input{
+	display:  block;
+	width:  300px;
+	padding:  10px;
+font-family: 'Viaoda Libre';
+
+}
+.form-control .input:focus{
+	outline:  0;
+}
+.form-control .input:placeholder{
+	background-color:  rgba(009,776,127,0.5);
+}
+.form .btn{
+	font-size:  15px;
+	width:  300px;
+	cursor:  pointer;
+	background-color:  var(--dbc);
+	padding:  10px;
+	border-radius:  5px;
+	border:  0;
+	font-family:  inherit;
+}
+.form .btn:hover{
+	transform:  scale(0.7);
+	background-color:  #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+:root{
+	--wcc: #f4f4f4;
+	--gyc:  #777;
+	--dbc:  #2541a8;
+
+}
+*{
+	box-sizing:  border-box;
+}
+body{
+	font-family:  'Squada One',cursive;
+	viewport height (vh)
+	height:  100vh;
+	display:  flex;
+	justify-content: center;
+	align-items:  center;
+	margin:  0;
+	overflow:  hidden;
+}
+.container{
+	width:  480px;
+	background-color:  var(--wcc);
+	box-shadow:  0 2px 10px rgba(0,0,0,0.5);
+	border-radius:  5px;
+}
+.container h2{
+	text-align:  center;
+	margin-bottom:  0;
+}
+.form{
+	padding:  30px 40px;
+}
+.form .form-control{
+	padding-bottom:  20px;
+	margin-bottom:  10px;
+}
+.form-control label{
+	display:  block;
+	color:  var(--gyc);
+	margin-bottom:  5px;
+}
+.form-control .input{
+	font-family:  'Squada One',cursive;
+	width:  100%;
+	padding:  10px;
+}
+.form-control .input:focus{
+	outline:  0;
+}
+.form-control .input::placeholder{
+	color:  rgba(0,0,0,0.3);
+}
+.form .btn{
+	 font-size:  16px;
+	 width:  100%;
+	 cursor:  pointer;
+	 padding:  10px;
+	 border-radius:  4px;
+	 border:  0;
+	 background-color:  var(--dbc);
+	 color:  #fff;
+}
+.form .btn:hover{
+	transform: scale(0.8);
+}*/

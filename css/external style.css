@@ -1,0 +1,19 @@
+p{
+	color:red;
+}
+h1,h2,h3,h4{
+	color:blue;
+}
+#myself,#sakasa{
+	color:green;
+}
+.ph{
+	color: red;
+}
+.f20{
+	font-size: 20px;
+}
+.divone,.divtwo{
+	color:blue;
+}
+

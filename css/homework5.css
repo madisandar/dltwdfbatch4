@@ -1,0 +1,138 @@
+
+
+.div1{
+	background-image:  linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2) ),
+	url("../img/download.jpg");
+	background-size: 400px 400px;
+    margin-bottom:  0;
+    padding-bottom:  10px;
+}
+.div1 h1{
+	font-size:  20px;
+}
+h1,p{
+	font-size:  15px;
+	text-align:  center;
+	color:  white;
+}
+.div2{
+	width:  500px;
+	margin-right:  1000px;
+}
+.div2 p{
+	width:  200px;
+}
+.div2 .input{
+	width: 200px;
+	padding:  3px;
+	
+	margin-bottom:  10px;
+	border-radius:  0 8px 8px 0;
+	background-color: green;
+	color:  blue;
+
+
+}
+.input:focus{
+	outline:  0;
+}
+
+.div3 {
+	width:  210px;
+	height:  210px;
+	box-sizing:  border-box;
+	background-color:  darkgreen;
+	color:  black;
+	position: relative;
+	margin-bottom:  10px;
+}
+.div3 .input1{
+	width:  160px;
+	margin:  3px;
+	margin-right:  40px;
+	transform:  scale(1);
+	color:  black;
+
+}
+.div3 .span{
+   width:  50px;
+   height:  20px;
+      top:  3px;
+    right:  5px;
+   position:  absolute;
+     background-color:  white;
+
+    border:  1px solid black;
+    text-align:  center;
+    transform:  scaleY(0.9)
+   
+}
+.div3 .para3{
+	color:  black;
+}
+.div4{
+	height:  350px;
+	margin-left:  300px;
+	position: absolute;
+	top:  90px;
+	left:  -80px;
+   bottom:  60px;
+   border-bottom:  1px solid black;
+}
+.div4 p{
+	text-align:  left;
+	margin-bottom:  4px;
+	color:  black;
+}
+.div5{
+	width:  190px;
+	height:  190px;
+	background-color:  orange;
+	float:  left;
+    border-radius:  50px 7px 50px 10px;
+	padding:  10px;
+	margin-right:  15px;
+	margin-top:  8px;
+	margin-left:  30px;
+}
+.div5 .span{
+	width:  80px;
+	height:  80px;
+	border-radius:  50%;
+   display:  block;
+	background-image:  url("../img/user.png");
+	background-position:  center;
+	background-size:  80px 80px;
+	background-color:  #fff;
+	margin:  auto;
+}
+.div5 .para{
+	color:  #fff;
+	text-align:  left;
+
+}
+ .div7{
+ 	position:  absolute;
+ 	margin-left:  120px;
+    left:  130px;
+    bottom:  83px;
+     margin-top:  30px;
+    right:  140px;
+ }
+ .div7 .para2{
+ 	margin-top:  10px;
+   color:  black;
+ 	text-align:  justify;
+ 	text-transform:  capitalize;
+ 	font-size:  15px;
+ 	word-spacing:  5px;
+ }
+ .div8{
+ 	width:  100%;
+ 	height:  100px;
+    display:  block;
+ 	background-image:  url("../img/footer.jpg");
+ 
+ 	position:  absolute;
+  bottom:  0;
+ 	}

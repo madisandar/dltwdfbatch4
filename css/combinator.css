@@ -1,0 +1,80 @@
+/*Tag to Tag
+div span{
+    color:  pink;
+}*/
+/*Tag to tags
+div span p{
+    color:  green;
+}/*
+/*Tag to class
+div .address{
+   font-size:  30px;
+}
+div span .address{
+    font-size:  30px;
+}*/
+/*Multi tag to class
+div span .name{
+    color:  red;
+}*/
+/*Multi tag same class
+div span small.name{
+    color:  yellow;
+}
+div p.name{
+    text-transform:  uppercase;
+    font-variant:  small-caps;
+}/*
+/*Tags to multi class
+div p.name{
+    color:  red;
+}
+div span b.age{
+    font-size:  40px;
+}/*
+/*Class to multi class
+.bank .money .currency{
+    color:  purple;
+}*/
+/*Class to tag
+.container p{
+    color:  red;
+}
+.container b{
+    font-size:  40px;
+}*/
+/*Class to tags
+.container b span{
+    color:  blue;
+}*/
+/*Same class
+div .mobile.jpn{
+    color:  red;
+}
+div .mobile.us{
+    font-size:  40px;
+}*/
+/*Class to same class
+.vehicle .car.jpn{
+    color:  red;
+}
+.vehicle .car.indo{
+    font-size:  40px;
+}*/
+/*Class to tag by group selector
+.div1 p,.div1 b{
+    font-style:  italic;
+    font-weight:  700px;
+}*/
+/*Child selector
+.div2>p{
+    color:  blue;
+}*/
+/*General Sibiling selector
+.div4~i{
+    color:  red;
+}*/
+/*Adjacent sibiling selector*/
+.div7+i{
+    font-size:  50px;
+}

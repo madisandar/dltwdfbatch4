@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dom Clock</title>
+	</head>
+	<body>
+     <p id="display"></p>
+     <script type="text/javascript">
+           
+     	let getdisplay=document.getElementById('display');
+
+     	 function startclock(){
+     	let date=new Date();
+     	// console.log(date);
+     	let gethours=date.getHours();
+     	// console.log(gethours);
+     	let getminutes=date.getMinutes();
+     	// console.log(getminutes);
+     	let getseconds=date.getSeconds();
+     	// console.log(getseconds);
+       
+     	let getampm;
+     	switch(getampm > 12){
+     		case true:
+     		getampm="PM";
+     		gethours=gethours-12;
+     		break;
+     		case false:
+     		getampm="AM";
+     		break;
+     	}
+
+     	let clock=gethours+":"+getminutes+":"+getseconds+":"+getampm;
+
+     	getdisplay.textContent=clock;
+
+     };
+
+     startclock();
+
+     setInterval(startclock,1000);
+
+
+     	
+     </script>
+	</body>
+</html>

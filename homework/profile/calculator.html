@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+     
+     <div class="container">
+<table border="1">
+<tr>
+
+<td colspan="3"><input type="text" id="edu"/></td>
+
+<tr>
+
+
+<td><input type="button" value="1" onclick="dis('1')"/> </td>
+<td><input type="button" value="2" onclick="dis('2')"/> </td>
+<td><input type="button" value="3" onclick="dis('3')"/> </td>
+</tr>
+<tr>
+   
+
+<td><input type="button" value="4" onclick="dis('4')"/> </td>
+  <td><input type="button" value="5" onclick="dis('5')"/> </td>
+<td><input type="button" value="6" onclick="dis('6')"/> </td>
+
+</tr>
+<tr>
+ <td><input type="button" value="7" onclick="dis('7')"/> </td>
+<td><input type="button" value="8" onclick="dis('8')"/> </td>
+<td><input type="button" value="9" onclick="dis('9')"/> </td>
+
+
+</tr>
+<tr>
+   <td><input type="button" class="add" value="+" onclick="dis('+')"/> </td>
+    <td><input type="button" class="sub" value="-" onclick="dis('-')"/> </td>
+     <td><input type="button" class="multi" value="x" onclick="dis('*')"/> </td>
+</tr>
+<tr>
+   <td><input type="button" class="dev" value="/" onclick="dis('/')"/> </td>
+<td><input type="button" value="." onclick="dis('.')"/> </td>
+<td><input type="button" value="0" onclick="dis('0')"/> </td>
+</tr>
+<tr>
+<td><input type="button" value="=" class="equal" onclick="solve()"/> </td>
+   <td><input type="button" class="mol" value="%" onclick="dis('%')"></td>
+   <td><input type="button" value="del" class="del" onclick="clr()"/> </td>
+</tr>
+</table>
+</div>
+
+<script src="js/app.js" type="text/javascript"></script>
+</body>
+

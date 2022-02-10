@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Templatestring</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			/*const name="thiri sandar",
+			age=17,
+			city="mandalay",
+			job="developer";
+			/*console.log(name);*/
+			/*const html (not declared) 
+			var html;
+			console.log(html);
+			let html;
+			//Without String//
+			//html='<ul><li>Name: '+ name +'</li><li>Age: '+ age +'</li><li>City: '+ city +'</li><li>Developer:'+ developer +'</li></ul>'
+			html='<ul>'+
+			'<li>Name: ' + name + '</li>'+
+			'<li>Age: ' + age + '</li>'+
+			'<li>City: ' + city + '</li>'+
+			'<li>Job: ' + job + '</li>'+
+			'</ul>';
+			document.write(html);
+			html=`<ul>
+			<li>Name: ${name} </li>
+			<li>Age: ${age} </li>
+			<li>City: ${age} </li>
+			<li>Job: ${job} </li>
+			</ul>`;*/
+			const name="thiri sandar",
+			age=17,
+			city="mandalay",
+			job="developer";
+			console.log(name);
+			//var html;
+			//console.log(html);
+		//	let  html;
+			//console.log(html);
+             let html;
+            // html="<ul><li>Name: "+name+" </li><li>Age: "+age+" </li><li>City: "+city+" </li><li>Job: "+job+" </li></ul>";
+            /*html='<ul>'+
+           '<li>Name: '+name+'</li>'+
+           '<li>Age: '+age+' </li>'+
+           '<li>City: '+city+' </li>'+
+           '<li>Job: '+job+' </li>'+
+           '</ul>';*/
+           //With template String//
+           html=`<ul><li>Name: ${name} </li><li>Age: ${age} </li><li>City: ${city} </li><li>Job: ${job} </li></ul>`;
+             //console.log(html);
+             document.write(html);
+		</script>
+	</body>
+</html>

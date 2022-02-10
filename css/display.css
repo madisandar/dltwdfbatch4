@@ -1,0 +1,79 @@
+.div1{
+    width: 500px;
+    height: 200px;
+    background-color: green;
+    margin: 20px;
+    
+}
+.div2{
+    width: 500px;
+    height: 200px;
+    background-color:  blue;;
+    margin: 20px;
+    position: relative;
+}
+.div1 .bank{
+         margin-left: 500px;
+         position: absolute;
+}
+.div1 .money{
+    margin-left: 270px;
+ 
+}
+.div1 .coin{
+    margin-left: 270px;
+}
+.div2 .bank{
+    margin-left: 270px;
+}
+.div2 .money{
+    margin-left: 970px;
+}
+.div2 .coin{
+    margin-left: 270px;-
+}
+.div3{
+    width: 500px;
+    height: 200px;
+    background-color: red;
+    border: 2px solid black;
+    margin: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+
+}
+.div3 .c1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+
+}
+.div3 .c2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    background-color: green;
+    display: inline;
+}
+.display1{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border: 2px solid black;
+}
+.display2{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    border: 2px solid black;
+}

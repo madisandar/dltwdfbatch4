@@ -1,0 +1,98 @@
+.container .circle1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient( red 30%,green 0 70%,blue 0 100%);
+}
+.container .circle2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(#34eb3d 20%,#d634eb 0 70%,#eb346e 30%)
+    
+}
+.container .circle3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(rgba(133, 84, 106,1.00) 20%,rgba(124,209,109,1.00)0 60%,rgba(229,207,114,1.00)0 20%);
+    
+}
+.container .circle4{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+        red,
+        green,
+        blue
+        );
+    
+}
+.container2{
+    margin:  auto;
+    width:  300px;
+  width:  300px;
+  height:  300px;
+  background-color:  darkblue;
+  display:  flex;
+  justify-content:  center;
+  align-items:  center;
+  position:  relative;
+  margin-top:  70px;
+    }
+    .container2 .c1{
+        width:  300px;
+        height:  300px;
+        background-color:  rgba(0,0,0,0.6);
+        border-radius:  50%;
+        position:  absolute;
+        z-index:  2;
+    }
+    .container2 .c2{
+        width:  320px;
+        height:  320px;
+        border-radius:  50%;
+        background:  conic-gradient(
+             red,
+              yellow 30%,
+              red 0,
+              green 65%,
+              yellow 0,
+              purple 100%);
+        position: absolute;
+        z-index:  1;
+    }
+    p{
+        color:  #fff;
+        z-index:  3;
+    }
+    .pointer{
+       width:  20px;
+       height:  20px;
+       background-color:  #559;
+       display:  block;
+       border-radius:  50%;
+
+    }
+    .pointer-container{
+        width:  20px;
+        height:  200px;
+       /* background-color:  #d55; */
+        z-index:  4;
+        position:  absolute;
+      top:  -60px;
+      animation-name:  myrotate;
+      animation-duration:  6s;
+      animation-timing-function:  linear;
+      animation-iteration-count:  infinite;
+      transform-origin:  bottom;
+  }
+  @keyframes myrotate{
+    from{
+        transform:  rotate(0deg);
+    }
+    to{
+        transform:  rotate(360deg);
+    }
+  }

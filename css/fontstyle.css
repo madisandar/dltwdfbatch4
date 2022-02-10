@@ -1,0 +1,51 @@
+
+@font-face{
+  font-family:  'abc';
+  src:  local('SpecialElite-Regular'), url(../libs/font/SpecialElite-Regular.ttf)
+  format('woff');
+}
+.p2{
+  font-family: 'abc';
+}
+.p3{
+  font-size: 40px;
+  font-family: 'abc';
+  font-weight: 600;
+  font-style: italic;
+  text-indent: 100px;
+  text-transform: uppercase;
+  font-variant: small-caps;
+}
+.menutext{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 20px;
+}
+.menutext:hover{
+  font-size: 30px;
+  background-color: green;
+  color: white;
+   
+}
+.menutext:visited{
+  background-color: blue;
+  color: red;
+}
+
+.menutext{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 60px;
+}
+.img{
+  width: 100px;
+  
+}
+.img:hover{
+  transition:  1s ease;
+  background-color: blue;
+}

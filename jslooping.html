@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Looping</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+	//1. for loop
+//	for(statement1 //start;statement2 end;statement3 inc/dec){
+     //code to executed}
+
+     //let i=0;
+  /*for(i ; i<10 ; i++){
+      console.log("Number="+i);
+  }	
+  for(i; i<=10; i++){
+	console.log("Number="+i);
+ }
+   console.log('i value is'+i);
+
+   let y=0;
+   for(y;y<=10;y++){
+   	if(y===5){
+   		console.log('5 is my Fav Number');
+   	}
+   	    console.log('Y value is'+y);
+       }
+       console.log('y='+y);
+ 
+   
+    let x=0;
+    for(x;x<10;x++){
+    	console.log('X value is'+x);
+    	if(x==2){
+    		console.log('2 is my fav Number');
+    		break;
+    	}
+    	//console.log('X value is'+x);
+    }
+
+    let k=10;
+    for(k;k>=0;k--){
+    	console.log('K value is '+k);
+    } 
+    console.log("k="+k); */
+
+   //Forloop with Array
+   //let myarr=["red","green","black","grey","blue","pink"]; 
+   //for(let m=0;m<myarr.length;m++){
+   //	document.write(myarr[m]+" color"+"<br/>");
+   //}
+
+   //Forloop with Array obj
+   /*let peoples=[
+   {name:'Aung Aung',age:20},
+   {name:'Su Su',age:21},
+   {name:'Mya Mya',age:22}
+   ];
+   for(let j=0;j<peoples.length;j++){
+    document.write("Name is ="+peoples[j].name+"Age is= "+peoples[j].age+"<br/>");
+   
+  document.write("Age is="+peoples[j].age+"<br/>");
+}*/
+ //for(key in arroyobj){
+   //code to executed
+//}
+let students={
+name: "Thiri Sandar",
+address:"Mandalay",
+parent: "U Ba"};
+console.log(students.name);
+for(key in students){
+  document.write(key+"is"+students[key]+"<br/>");
+}
+let myarrs=["red","green","black","grey","blue","pink"];
+for(key in myarrs){
+  document.write(key+"is"+myarrs[key]+"<br/>");
+}
+let j=0;
+while(j<myarrs.length){
+  console.log("color is "+myarrs[j]);
+  j++;
+}
+let k=0;
+do{
+  console.log("k value is "+k);
+  k++;
+}while(k<10)
+console.log(k);
+
+let w=0;
+do{
+   document.write("color is "+myarrs[w]+"<br/>");
+   w++;
+}while(w<myarrs.length)
+//let students={
+   //name: "Thiri Sandar",
+   //address: "Mandalay",
+   //parent: "U Ba"
+//};
+//console.log(students.parent);
+//for(abc in students){
+  //document.write(abc+"is"+students[abc]+"<br/>");
+//}
+//let myarrs=["red","green","black","grey","blue","pink"];
+//console.log(myarrs[3]);
+//for(key in myarrs){
+  //document.write(key+" is "+myarrs[key]+"<br/>");
+//}
+//3.while loop
+ //start
+ //while(end){
+  //before print ++ --
+  //code to executed
+  //after pring ++ --
+ //}
+ //let b=0;
+ //while(b<=10){
+   //console.log("b value is "+b);
+   //b++;
+ //}
+
+ //let c=0;
+// while(c<10){
+   //c++;
+  // console.log(" c value is "+c);
+ //}
+ //console.log("c= "+c);
+ //let d=10;
+ //while(d>0){
+ //d--;
+ //console.log("d value is "+d);
+ //}
+ //console.log("d= "+d);
+ 
+ //let l=0;
+ //while(l<myarrs.length){
+//document.write("color is "+myarrs[l]+"<br/>");
+ //l++;
+
+ //}
+ //4.Do while loop
+ //start
+ //do{
+  //before print ++ --
+ // code to executed
+  //after print ++ --
+ //}while(end);
+ /*let n=0;
+ do{
+  console.log('N value is '+n);
+  n++;
+}while(n<10);
+console.log('n= '+n);
+let j=0;
+do{
+  j++;
+  console.log('J value is '+ j);
+}while(j<10);
+console.log('J= '+j);*/
+//let p=0;
+//do{
+ // document.write("My fav color is= "+myarrs[//p]+"<br/>");
+ // p++;
+//}while(p<myarrs.length);
+
+//5 forEach Loop
+let myarrsd=["red","green","black","grey","blue","pink"];
+ //(value,index,array)
+myarrsd.forEach(function(myarr,abc,arr){
+  console.log(arr);
+  document.write("index number is" +
+    abc+"value is "+myarr+"color"+"<br/>");
+});
+
+
+let thiri=["red","green","blue","yellow"];
+thiri.forEach(function(t){
+  console.log(t+"color");
+});
+//6.map
+const users=[
+{id: 1,name: "Aung Aung"},
+{id: 2,name: "Maung Maung"},
+{id: 3,name :"Naung Naung"}
+];
+const ids=users.map(function(user){
+  return user.id;
+});
+console.log(ids);
+const names=users.map(function(user){
+  return user.name;
+});
+console.log(name);
+
+const users2=[
+{no: 1,book: "Alexnda"},
+{no: 2,book: "Stephna"},
+{no: 3,book: "Sofia"}];
+const ids2=users2.map(function(abc){
+  return abc.no;
+});
+console.log(ids2);
+
+		</script>
+	</body>
+</html>

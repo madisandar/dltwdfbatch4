@@ -1,0 +1,43 @@
+.borderstyle1{
+	border: 2px;
+	border-style: dotted;
+}
+.borderstyle2{
+	border:2px;
+	border-style: solid;
+}
+.borderstyle3{
+	border: 2px double;
+}
+.borderstyle4{
+	border: 2px dashed;
+}
+.borderstyle5{
+	border: 2px inset;
+}
+.borderstyle6{
+	border: 2px outset;
+	}
+
+li{
+   width: 200px;
+   border: 2px solid blue;
+   list-style-type: decimal-leading-zero;
+   list-style-position: inside;
+}
+input[type="email"]{
+      font-size: 50px;
+}
+input{
+	width: 300px;
+	background-color: yellow;
+}
+body{
+	background-image: url(../img/icon/icon2.png);
+	width: 500px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.div1:first-of-type{
+	background-color: red;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regular function</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			//Regular Function
+			//function name(){
+				//code to be executed
+			//}
+			//name(); recall or invoke
+		function greet(){
+			console.log('Hello Mandalay');
+		}
+		greet();
+		//printalert();
+	function printalert(){
+		window.alert('Hello Mandalay');
+	}
+	//printalert();
+
+			//1 Manual Function(not value)
+			//greet();
+			//f//unction greet(){
+				//console.log('Hello Mandalay');
+		//	}
+			//greet();
+			//function printalert(){
+				//window.alert('Hello Myanmar')
+		//	}
+
+			//printalert();
+			//function hello(){
+			//	return "Hello Yangon";
+		//	}
+			//console.log(hello());
+			//window.alert(hello());
+			//document.write(hello());
+
+			//2.Parameter or argument function(value)
+			//a.single Parameter function
+			//b.multi parameter function
+
+			//a.single parameter function
+		//	function myfun1(city){
+			//	window.alert("hello"+city);
+		//	}
+			//myfun1("Mandalay");
+			//myfun1("Yangon");
+			//myfun1("Naypyitaw");
+
+		//	function myfun2(city=" "){
+			//	console.log(` ${city}`);
+		//	}
+		function myfun1(city){
+			console.log("hello "+city);
+		}
+	//	myfun1("mandalay");
+		
+			//function myfun1(city){
+				//console.log("Hello "+city);
+			//}
+			//myfun1("Mandalay");
+			//myfun1("Yangon");
+			//myfun1("Bago");
+			//myfun1();
+			//function myfun2(city=" "){
+				//console.log(`Hello ${city}`);
+		//	}
+			//myfun2();
+
+		//b multi Parameter function
+      function multifun4(x,y,z){
+      	console.log(`X value is= ${x} and y value is= ${y} and z value is= ${z}`);
+
+      }
+     // multifun4(20,30,40,50);
+         function multifun1(x,y,z){
+         console.log(`X value is =${x} and Y value is=${y} and Z value is=${z}`);
+         }
+          //multifun1(10,20,30,40);
+
+          function multifun2(x,y,z){
+             const result=x+y+z;
+             return result;
+          }
+          function multifun5(x,y,z){
+          	const result=x+y+z;
+          	return result;
+          }
+         //console.log(multifun2(10,20,30,40));
+      function multifun3(x,y,z=100){
+      	const result=x+y+z;
+      	return z;
+      }
+      console.log(multifun3(10,20,30));
+        let num1=100;
+        let num2=200;
+        let num3=300;
+        function abc(a,b,c){
+           console.log(`a is ${a} and b is ${b} and c is ${c}`);
+        }
+       abc(num1,num2,num3);
+        //multifun4(num1,num2,num3);
+        //3.Name less function(Anoymous function);
+
+     let annfun=function(a){
+     	document.write("a value is "+a);
+     }
+     annfun(300);
+     document.write("<br/>");
+      
+        //Constructor function by string
+   let confun=new Function("a","b","c","return a+c");
+   document.write(confun(20,30,40));
+        document.write("<br/>");
+        //Method 1
+        let slfun1=function(a){
+     document.write(`I am self invoking function and my value is ${a}`);
+        }(500);
+        document.write("<br/>");
+
+       // Method 2
+          (function(a){
+          	document.write(`I am self invoking function and my value is ${a}`);
+          })(400);
+   
+
+           //Using function to function
+          
+         function funone(){
+         	return "Hello world";
+         }
+         function funtwo(fun){
+         	console.log(fun);
+         }
+         //funtwos(funone());
+
+           //Get function name(.name)
+           function funone(){
+
+           }
+         
+         //get function name
+        function funone(){
+        	return "Hello world";
+        }
+        function funtwo(abcd){
+        	console.log(abcd.name
+        		);
+        }
+        funtwo(funone);
+        
+         
+		</script>
+	</body>
+</html>
+<!--Function
+1.Regular function
+2.Arrow function -->

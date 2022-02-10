@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Digital Clock</title>
+	</head>
+
+	<p id="display"></p>
+	<body>
+
+		<script type="text/javascript">
+
+
+		let getdisplay= document.getElementById('display');
+
+		    function startclock(){
+		    let getdate=new Date();
+		    // console.log(getdate);
+
+		    let gethour=getdate.getHours();
+		    // console.log(gethour);
+
+		    let getminute=getdate.getMinutes();
+		    // console.log(getminute);
+
+		    let getseconds=getdate.getSeconds();
+		    // console.log(getseconds);
+
+		    let getampm;
+
+		    switch(gethour > 12){
+		    	case true:
+		    	getampm="PM";
+		    	gethour=gethour-12;
+		    	break;
+		    	case false:
+		    	getampm="AM";
+		    	break;
+		    }
+
+		    let clock=gethour + ":" + getminute + ":" +getseconds + " " + getampm;
+		    // console.log(clock);
+
+             getdisplay.textContent = clock;
+		}
+
+		startclock();
+		setInterval(startclock,1000);
+
+
+		</script>
+	</body>
+</html>

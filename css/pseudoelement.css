@@ -1,0 +1,52 @@
+body{
+    text-indent:  50px;
+     text-transform:  capitalize;
+     line-height:  20px;
+     word-spacing:  10px;
+     font-size:  20px;
+}
+.paragraph1::before{
+    font-size:  30px;
+    color:  red;
+    content:  "The";
+}
+.paragraph1::after{
+     background-color:  purple;
+     font-size:  15px;
+     content:  "end";
+}
+.paragraph1::selection{
+    background-color:  green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.paragraph1::selection{
+    background-color: blue;
+    
+}
+.paragraph1::before{
+    font-size: 40px;
+    color: red;
+    content: "T";
+}
+.paragraph1::after{
+    font-size: 50px;
+    color: green;
+    content: ".";
+}
+.paragraph1::first-letter{
+    font-size: 90px;
+    color: green;
+}*/
